@@ -1,4 +1,4 @@
-﻿/*
+/*
 Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
 Например, задан массив:
 
@@ -75,5 +75,4 @@ int[,] matrix = InitMatrix(m, n);
 Console.WriteLine("Матрица:");
 PrintMatrix(matrix);
 Console.WriteLine();
-
 Console.Write($"Индекс строки с наименьшей суммой элементов = {GetIndexSmallestSum(matrix)}");
